@@ -2,6 +2,7 @@
     --vermelho:#e50914;
     --preta:#141414;
 }
+html{scroll-behavior: smooth;}
 
 *{
     margin: 0;
@@ -26,6 +27,7 @@ header .container{
 .cabecalho{
     list-style: none;
     display:flex;
+    margin-top: 10px;
 }
 @media screen and (max-width:700px){
     header .container{
@@ -129,14 +131,57 @@ h2 .logo-img{
 }
 
 .footer{
+    margin-top: 10px;
     text-align: center;
 
 }
 .footer img{
-    margin-top: 10px;
     height: 50px;
     width: 50px;
     object-fit: cover;
-    color: white;
 
+}
+
+.container-usuario h2{
+    font-size: 36px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.perfil-img{
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.perfis-ul{
+    display:inline;
+    flex-direction: row;
+}
+.container-usuario ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    padding: 15px;
+}
+.container-usuario li{
+    margin: 0 15px;
+}
+#shaun-perfil{
+    height:30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+}
+.botao a{
+    text-decoration: none;
+    
 }
