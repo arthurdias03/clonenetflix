@@ -5,11 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Clone Netflix</title>
+    <link rel="shortcut icon" type="imagex/png" href="img/netflix-icone.ico">
+    <!--arquivos css-->
+    <link rel="stylesheet" href="style/responsive.css">
     <link rel="stylesheet" href="style/main.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
+    <!--owl css-->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+<!--fonte site netflix outros elementos-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap" rel="stylesheet">
@@ -17,7 +20,7 @@
 <body>
     <header>
         <div  class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <h2 class="logo"><img src="img/Netflix-logo.png" alt="logo netflix" class="logo-img"></h2>
             <nav>
                 <a href="#">Inicio</a>
                 <a href="#">Séries</a>
@@ -28,36 +31,75 @@
 
     </header>
     <main>
-
-        
+    
+    
         <div class="filme-principal">
             <div class="container">
-                <h3 class="titulo">STRANGER THINGS</h3>
-                <P class="descricao">Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram são segredos, forças sobrenaturais e uma menina.
+                <h3 class="titulo"><img src="img/Stranger-Things-Logo.png" alt="logo stranger things" class="logo-img">
+                </h3>
+                <P class="descricao">Quando um garoto desaparece, a cidade toda participa nas buscas. Mas o que encontram
+                    são segredos, forças sobrenaturais e uma menina.
                     Nova temporada no dia 27 de maio de 2022.
                 </P>
             </div>
             <div class="botoes">
-                <button role="button"  class="botao">
-                    <i class="fa-solid fa-play"></i>
-                    ASSISTIR AGORA
+                <button role="button" class="botao">
+                   <i class="fa-solid fa-play"></i>
+                    ASSISTIR AGORA</a> 
                 </button>
-                <button role="button"  class="botao">
+                <button role="button" class="botao">
                     <i class="fa-solid fa-circle-info"></i>
-                MAIS INFORMAÇÕES
+                    MAIS INFORMAÇÕES
                 </button>
-
+    
             </div>
-           
+    
         </div>
     </main>
 
+    <div class="carrossel-filmes">
+        <h3 class="subtitulo-carrossel">Continuar assistindo</h3>
+        <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img src="img/post1.jpg" alt="poster 1" class="box-filme">
+                </div>
+                <div class="item">
+                    <img src="img/post2.jpg" alt="poster 2" class="box-filme">
+                </div>
+                <div class="item">
+                    <img src="img/post3.jpg" alt="poster 3" class="box-filme">
+                </div>
+                <div class="item">
+                    <img src="img/post4.jpg" alt="poster 4" class="box-filme">
+                </div>
+                <div class="item">
+                    <img src="img/post5.jpg" alt="poster 5" class="box-filme">
+                </div>
+                <div class="item">
+                    <img src="img/post6.jpg" alt="poster 6" class="box-filme">
+                </div>
+                <div class="item">
+                    <img src="img/post7.jpg" alt="poster 7" class="box-filme">
+                </div>
+                <div class="item">
+                    <img src="img/post8.jpg" alt="poster 8" class="box-filme">
+                </div>
+              
+
+        </div>
+
+    </div>
 
     <footer>
 
     </footer>
 
     <script src="https://kit.fontawesome.com/4c89e52acf.js" crossorigin="anonymous"></script>
+    <!--owl js-->
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/setup.js"></script>
+
 </body>
 
 </html>

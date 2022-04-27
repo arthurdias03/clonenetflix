@@ -24,11 +24,9 @@ header .container{
 }
 
 header .logo{
-    margin-left: 10px;
-    color: var(--vermelho);
-    font-family: 'Bebas Neue', cursive, 'Arial Black';
-    font-size: 40px;
+    font-size: 28px;
     font-stretch: expanded;
+   
 }
 
 header nav a{
@@ -43,10 +41,10 @@ header nav a:hover{
 /*filme principal*/
 .filme-principal{
     font-size: 16px;
-    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/stranger\ things.jpg');
-    height: 400px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/stranger\ things2.jpg');
+    height: 600px;
     background-size: cover;
-    margin-bottom: 15%;
+    margin-bottom: -5%;
     
 
     display:flex;
@@ -56,7 +54,7 @@ header nav a:hover{
 
 }
 .filme-principal .descricao{
-    margin-bottom:40px ;
+    margin-bottom:30px ;
     margin-top: 10px;
     
 
@@ -84,9 +82,32 @@ header nav a:hover{
 .botao i{
     margin-right: 8px;
 }
-.filme-principal .container{margin-left:35px ;
+.filme-principal .container{
+    margin-left:35px ;
     width:70%;
 }
 div .botoes{
     margin-left: 35px;
 }
+h3 .logo-img{
+    height: 150px;
+    object-fit: cover;
+}
+h2 .logo-img{
+    height:28px;
+    object-fit: cover;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.subtitulo-carrossel{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
