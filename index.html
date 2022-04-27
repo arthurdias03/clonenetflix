@@ -18,21 +18,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    
+    <header >
         <div  class="container">
             <h2 class="logo"><img src="img/Netflix-logo.png" alt="logo netflix" class="logo-img"></h2>
-            <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>
+            <nav >
+                <ul class="cabecalho">
+                    <li><a href="#">Ínicio</a></li>
+                    <li><a href="#">Séries</a></li>
+                    <li><a href="#filmes">Filmes</a></li>
+                    <li><a href="#">Documentários</a></li>
+                </ul>
+                    
             </nav>
         </div>
 
     </header>
+
+
     <main>
-    
-    
+        
         <div class="filme-principal">
             <div class="container">
                 <h3 class="titulo"><img src="img/Stranger-Things-Logo.png" alt="logo stranger things" class="logo-img">
@@ -60,28 +65,62 @@
     <div class="carrossel-filmes">
         <h3 class="subtitulo-carrossel">Continuar assistindo</h3>
         <div class="owl-carousel owl-theme">
-                <div class="item">
+                <div class="item poster-filme">
                     <img src="img/post1.jpg" alt="poster 1" class="box-filme">
                 </div>
-                <div class="item">
+                <div class="item poster-filme">
                     <img src="img/post2.jpg" alt="poster 2" class="box-filme">
                 </div>
-                <div class="item">
+                <div class="item poster-filme">
                     <img src="img/post3.jpg" alt="poster 3" class="box-filme">
                 </div>
-                <div class="item">
+                <div class="item poster-filme">
                     <img src="img/post4.jpg" alt="poster 4" class="box-filme">
                 </div>
-                <div class="item">
+                <div class="item poster-filme">
                     <img src="img/post5.jpg" alt="poster 5" class="box-filme">
                 </div>
-                <div class="item">
+                <div class="item poster-filme">
                     <img src="img/post6.jpg" alt="poster 6" class="box-filme">
                 </div>
-                <div class="item">
+                <div class="item poster-filme">
                     <img src="img/post7.jpg" alt="poster 7" class="box-filme">
                 </div>
-                <div class="item">
+                <div class="item poster-filme">
+                    <img src="img/post8.jpg" alt="poster 8" class="box-filme">
+                </div>
+              
+
+        </div>
+
+    </div>
+ 
+<!--parte filmes-->
+    <div class="carrossel-filmes" >
+        <h3 class="subtitulo-carrossel"><a name="filmes">Filmes</a></h3>
+        <div class="owl-carousel owl-theme">
+                <div class="item poster-filme">
+                    <img src="img/post1.jpg" alt="poster 1" class="box-filme">
+                </div>
+                <div class="item poster-filme">
+                    <img src="img/post9.jpg" alt="poster 2" class="box-filme">
+                </div>
+                <div class="item poster-filme">
+                    <img src="img/post3.jpg" alt="poster 3" class="box-filme">
+                </div>
+                <div class="item poster-filme">
+                    <img src="img/post4.jpg" alt="poster 4" class="box-filme">
+                </div>
+                <div class="item poster-filme">
+                    <img src="img/post5.jpg" alt="poster 5" class="box-filme">
+                </div>
+                <div class="item poster-filme">
+                    <img src="img/post6.jpg" alt="poster 6" class="box-filme">
+                </div>
+                <div class="item poster-filme">
+                    <img src="img/post7.jpg" alt="poster 7" class="box-filme">
+                </div>
+                <div class="item poster-filme">
                     <img src="img/post8.jpg" alt="poster 8" class="box-filme">
                 </div>
               
@@ -90,8 +129,12 @@
 
     </div>
 
-    <footer>
 
+
+    <footer class="footer">
+
+        <p>Desenvolvido por Arthur Dias</p>
+        <a href="https://github.com/arthurdias03/clonenetflix.git" target="_blank" ><img src="img/github-logo.png" alt=""></a>
     </footer>
 
     <script src="https://kit.fontawesome.com/4c89e52acf.js" crossorigin="anonymous"></script>
@@ -99,6 +142,7 @@
     <script src="js/owl/jquery.min.js"></script>
     <script src="js/owl/owl.carousel.min.js"></script>
     <script src="js/setup.js"></script>
+   
 
 </body>
 
