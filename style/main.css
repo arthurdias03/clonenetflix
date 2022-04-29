@@ -1,0 +1,187 @@
+:root{
+    --vermelho:#e50914;
+    --preta:#141414;
+}
+html{scroll-behavior: smooth;}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elementos base*/
+body{
+  background: var(--preta);  
+  font-family: 'Martel Sans', sans-serif,'Times New Roman', Times, serif;
+  color: white;
+}
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.cabecalho{
+    list-style: none;
+    display:flex;
+    margin-top: 10px;
+}
+@media screen and (max-width:700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+          
+     }
+     .logo-img{
+     display: flex;   
+     
+    }
+    .cabecalho{margin-left: 5%;
+                margin-top: 5%;
+    }
+}
+
+
+header nav a{
+    text-decoration: none;
+    color:#AAA;
+    margin-right:10px;
+    transition: .3s ease ease-in;
+}
+header nav a:hover{
+    color:#fff;
+}
+/*filme principal*/
+.filme-principal{
+    font-size: 16px;
+    background:linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('../img/stranger-things2.jpg');
+    height: 600px;
+    background-size: cover;
+    margin-bottom: -5%;
+    
+    
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.filme-principal .descricao{
+    margin-bottom:30px ;
+    margin-top: 10px;
+    
+
+}
+
+.titulo{
+    margin-top: 5%;
+    font-size: 40px;
+    
+}
+.botao{
+    background-color:rgba(0,0,0,.50) ;
+    border: none;
+    color:white;
+    padding:15px 30px;
+    border-radius: 10px;
+    font-size: 12px;
+    cursor:pointer;
+    transition: .5s ease all;
+}
+.botao:hover{
+    background-color: white;
+    color: black;
+}
+.botao i{
+    margin-right: 8px;
+}
+.filme-principal .container{
+    margin-left:35px ;
+    width:70%;
+}
+div .botoes{
+    margin-left: 35px;
+}
+h3 .logo-img{
+    height: 150px;
+    object-fit: cover;
+}
+h2 .logo-img{
+    height:30px;
+    object-fit: cover;
+    margin-left: 15px;
+    margin-top: 12px;
+    justify-content: center;
+}
+
+.box-filme{
+    height: 80%;
+    width: 80%;
+    display: block;
+    
+}
+.subtitulo-carrossel{
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.footer{
+    margin-top: 10px;
+    text-align: center;
+
+}
+.footer img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+
+}
+
+.container-usuario h2{
+    font-size: 36px;
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 10%;
+}
+.perfil-img{
+    height:150px;
+    width:150px;
+    object-fit: cover;
+    border-radius: 7px;
+}
+.perfis-ul{
+    display:inline;
+    flex-direction: row;
+}
+.container-usuario ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    list-style: none;
+    padding: 15px;
+}
+.container-usuario li{
+    margin: 0 15px;
+}
+#shaun-perfil{
+    height:30px;
+    width: 30px;
+    object-fit: cover;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-bottom: 2px;
+    margin-right: 5px;
+}
+.botao a{
+    text-decoration: none;
+    
+}
